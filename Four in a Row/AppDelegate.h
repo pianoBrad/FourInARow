@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CocoaAsyncSocket/GCDAsyncSocket.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
