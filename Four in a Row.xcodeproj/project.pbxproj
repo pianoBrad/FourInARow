@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2D625D891B082450000A0508 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D625D881B082450000A0508 /* ViewController.xib */; };
+		2D625D8D1B083219000A0508 /* BPHostGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D625D8B1B083219000A0508 /* BPHostGameViewController.m */; };
+		2D625D8E1B083219000A0508 /* BPHostGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D625D8C1B083219000A0508 /* BPHostGameViewController.xib */; };
 		2D98F0AA1B07FBB5007D0DFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D98F0A91B07FBB5007D0DFA /* main.m */; };
 		2D98F0AD1B07FBB5007D0DFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D98F0AC1B07FBB5007D0DFA /* AppDelegate.m */; };
 		2D98F0B01B07FBB5007D0DFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D98F0AF1B07FBB5007D0DFA /* ViewController.m */; };
@@ -30,6 +32,9 @@
 
 /* Begin PBXFileReference section */
 		2D625D881B082450000A0508 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		2D625D8A1B083219000A0508 /* BPHostGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPHostGameViewController.h; sourceTree = "<group>"; };
+		2D625D8B1B083219000A0508 /* BPHostGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPHostGameViewController.m; sourceTree = "<group>"; };
+		2D625D8C1B083219000A0508 /* BPHostGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BPHostGameViewController.xib; sourceTree = "<group>"; };
 		2D98F0A41B07FBB5007D0DFA /* Four in a Row.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Four in a Row.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D98F0A81B07FBB5007D0DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D98F0A91B07FBB5007D0DFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -103,6 +108,9 @@
 				2D98F0AE1B07FBB5007D0DFA /* ViewController.h */,
 				2D98F0AF1B07FBB5007D0DFA /* ViewController.m */,
 				2D625D881B082450000A0508 /* ViewController.xib */,
+				2D625D8A1B083219000A0508 /* BPHostGameViewController.h */,
+				2D625D8B1B083219000A0508 /* BPHostGameViewController.m */,
+				2D625D8C1B083219000A0508 /* BPHostGameViewController.xib */,
 				2D98F0B11B07FBB5007D0DFA /* Main.storyboard */,
 				2D98F0B41B07FBB5007D0DFA /* Images.xcassets */,
 				2D98F0B61B07FBB5007D0DFA /* LaunchScreen.xib */,
@@ -229,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D98F0B31B07FBB5007D0DFA /* Main.storyboard in Resources */,
+				2D625D8E1B083219000A0508 /* BPHostGameViewController.xib in Resources */,
 				2D98F0B81B07FBB5007D0DFA /* LaunchScreen.xib in Resources */,
 				2D625D891B082450000A0508 /* ViewController.xib in Resources */,
 				2D98F0B51B07FBB5007D0DFA /* Images.xcassets in Resources */,
@@ -284,6 +293,7 @@
 			files = (
 				2D98F0B01B07FBB5007D0DFA /* ViewController.m in Sources */,
 				2D98F0AD1B07FBB5007D0DFA /* AppDelegate.m in Sources */,
+				2D625D8D1B083219000A0508 /* BPHostGameViewController.m in Sources */,
 				2D98F0AA1B07FBB5007D0DFA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

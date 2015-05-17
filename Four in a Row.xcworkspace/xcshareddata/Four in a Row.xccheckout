@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B066C6D1-2380-4DAB-A1D4-327BF0EE9F16</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Four in a Row</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>170B12615386812D1E90D7AA7A9BF7841F9A2A4D</key>
+		<string>github.com:pianoBrad/FourInARow.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Four in a Row.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>170B12615386812D1E90D7AA7A9BF7841F9A2A4D</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:pianoBrad/FourInARow.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>170B12615386812D1E90D7AA7A9BF7841F9A2A4D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>170B12615386812D1E90D7AA7A9BF7841F9A2A4D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Four%20in%20a%20Row</string>
+		</dict>
+	</array>
+</dict>
+</plist>
