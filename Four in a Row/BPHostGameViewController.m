@@ -7,8 +7,12 @@
 //
 
 #import "BPHostGameViewController.h"
+#import <CocoaAsyncSocket/GCDAsyncSocket.h>
 
 @interface BPHostGameViewController ()
+
+@property (strong, nonatomic) NSNetService *service;
+@property (strong, nonatomic) GCDAsyncSocket *socket;
 
 @end
 
@@ -21,6 +25,31 @@
     
     // Setup View
     [self setupView];
+    
+    // Start Broadcast
+    [self startBroadcast];
+}
+
+- (void)startBroadcast {
+    // Initialize GCDAsyncSocket
+    self.socket = [[GCDAsyncSocket alloc] initWithDelegate:self delegateQueue:dispatch_get_main_queue()];
+    
+    // Start Listening for Incoming Connections
+    NSError *error = nil;
+    if ([self.socket acceptOnPort:0 error:&error]) {
+        // Initialize Service
+        self.service = [[NSNetService alloc] initWithDomain:@"local." type:@"_fourinarow._tcp." name:@"" port:[self.socket localPort]];
+        
+        // Configure Service
+        [self.service setDelegate:(id)self];
+        
+        // Publish Service
+        [self.service publish];
+        NSLog(@"NSNetService successfully published!");
+        
+    } else {
+        NSLog(@"Unable to create socket. Error %@ with user info %@.", error, [error userInfo]);
+    }
 }
 
 - (void)didReceiveMemoryWarning {
